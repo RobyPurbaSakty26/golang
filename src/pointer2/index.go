@@ -25,4 +25,9 @@ func main () {
 	fmt.Println("Address1", adress1)
 	fmt.Println("Address2", adress2)
 
+	var addres4 *Addres = new(Addres)
+	addres4.City = "Jakarta"
+
+	fmt.Println(addres4)
+
 }
